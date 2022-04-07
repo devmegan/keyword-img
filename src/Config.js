@@ -1,6 +1,6 @@
 const HREFS = {
-    app: '#',
-    repo: 'https://devmegan.github.io/keyword-img/',
+    app: 'https://devmegan.github.io/keyword-img/',
+    repo: 'https://github.com/devmegan/keyword-img',
   }
   
 const THEME = "garden";
