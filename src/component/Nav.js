@@ -9,7 +9,7 @@ export default function Nav() {
             {HREFS.repo && (
                 <div className="flex-none">
                     <ul className="menu menu-horizontal p-0">
-                        <li><a href={HREFS.repo} target="_blank">Repo</a></li>
+                        <li><a href={HREFS.repo} target="_blank" rel="noreferrer">Repo</a></li>
                     </ul>
                 </div>
             )}
