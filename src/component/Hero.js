@@ -21,7 +21,7 @@ export default function Hero() {
     }
 
     return (
-        <div className="min-h-screen bg-base-200 w-full py-10 md:py-20">
+        <div className="min-h-screen bg-base-100 w-full py-10 md:py-20">
             <div className="max-w-screen-md px-10 md:px-0 grid grid-cols-1 gap-3 block mx-auto text-center">
                 <div className='h-80'>
                     {url && <ImgCard src={url} alt={alt} setLoading={setLoading} setError={setError} />}
