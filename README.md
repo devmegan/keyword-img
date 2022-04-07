@@ -1,9 +1,19 @@
-# React Template
+# [keyword-img](https://devmegan.github.io/keyword-img/)
 
-[React](https://reactjs.org/) template with [tailwindcss](https://tailwindcss.com/) and [daisyUI](https://daisyui.com/) configured. 
+<img src="README/keyword.gif" alt="screen recording of app" />
 
-- Run the app using `npm start`
-- Test using `npm test`
-- Build using `npm run build`
+A react app using that takes a keyword input and fetches a related image from [unsplash](https://unsplash.com/). Try it [here](https://devmegan.github.io/keyword-img/).
 
-For info about how to use this template, see [GitHub's guide to creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Has some basic error handling: 
+
+<img src="README/error.gif" alt="screen recording of fetch erroring" />
+
+Styled with [daisyUI](https://daisyui.com/) and [tailwindCSS](https://tailwindcss.com/).
+
+Tested using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). 
+
+---
+
+Clone me and then run me using `npm start`
+Test me using `npm test` / `npm test --coverage`
+Build me using `npm build`
