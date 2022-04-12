@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders w/o crashing', () => {
   render(<App />);
-  const linkElement = screen.getByText(/devmegan\/react-template/i);
+  const linkElement = screen.getByText('keyword-img');
   expect(linkElement).toBeInTheDocument();
 });
