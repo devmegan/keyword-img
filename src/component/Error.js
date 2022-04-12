@@ -5,12 +5,13 @@ export default function Error({ error, setError }) {
     }
 
     return (
-        <div className="alert alert-error shadow-lg max-w-sm mx-auto">
+        <div className="alert alert-error shadow-lg max-w-sm mx-auto" role="alert">
             <div>
                 <svg 
                     className="stroke-current flex-shrink-0 h-6 w-6 hover:text-red-800 cursor-pointer" 
                     onClick={handleClick}
                     fill="none" 
+                    role="button"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
