@@ -3,6 +3,10 @@ import Description from '../Description';
 import { DESCRIPTION } from '../../Config'
 
 describe('description', () => {
+    beforeEach(() => {
+        jest.spyOn(console, 'error').mockImplementation(() => {});
+    });
+
     it('renders w/o crashing', () => {
         expect.hasAssertions();
 

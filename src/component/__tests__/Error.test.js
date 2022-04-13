@@ -5,6 +5,10 @@ import Error from '../Error';
 const errorFn = jest.fn();
 
 describe('error', () => {
+  beforeEach(() => {
+    jest.spyOn(console, 'error').mockImplementation(() => {});
+  });
+
   it('renders w/o crashing', () => {
     expect.hasAssertions();
 
