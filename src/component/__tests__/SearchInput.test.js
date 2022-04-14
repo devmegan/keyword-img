@@ -18,7 +18,6 @@ describe('search input', () => {
   });
 
   it('calls search fn on click', async () => {
-
     expect.hasAssertions();
 
     render(<SearchInput search={searchFn} />);
