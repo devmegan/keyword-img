@@ -13,10 +13,8 @@ export default function Hero() {
     const search = async (keyword) => {
         setLoading(true);
         setError(false);
-
         fetch(`https://source.unsplash.com/random/800x500/?${keyword}`)
             .then(Res => setUrl(Res.url));
-
         setAlt(`image from your search for ${keyword}`)
     }
 
